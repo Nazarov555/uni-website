@@ -131,6 +131,7 @@ nav img {
         display: block;
         margin: 10px;
         cursor: pointer;
+        width: 40px;
     }
     .header .menu-btn {
         display: block;
@@ -280,6 +281,10 @@ nav img {
 @media screen and (max-width: 580px) {
     .layer h3{
         font-size: 13px;
+    }
+    .row-campus {
+        flex-direction: column;
+        align-items: center;
     }
 }
 /*--------- FACILITIES ---------*/
